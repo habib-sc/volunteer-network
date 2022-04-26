@@ -1,0 +1,8 @@
+.vn-event-body{
+    background-color: rgb(10, 158, 243);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
