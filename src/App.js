@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import AddEvent from './components/Pages/AddEvent/AddEvent';
 import Dashboard from './components/Pages/Dashboard/Dashboard';
+import EventsPage from './components/Pages/EventsPage/EventsPage';
 import Home from './components/Pages/Home/Home';
 import Login from './components/Pages/Login/Login';
 import Register from './components/Pages/Register/Register';
@@ -19,6 +20,7 @@ function App() {
           <Route path='/dashboard/volunteers' element={<VolunteerList></VolunteerList>}></Route>
           <Route path='/dashboard/add-event' element={<AddEvent></AddEvent>}></Route>
         </Route>
+        <Route path='/events' element={<EventsPage></EventsPage>}></Route>
       </Routes>
     </div>
   );

@@ -1,12 +1,15 @@
 import React from 'react';
 import Events from './Events/Events';
+import './Home.css';
 import HomeSearch from './HomeSearch/HomeSearch';
 
 const Home = () => {
     return (
         <div>
             <HomeSearch></HomeSearch>
-            <Events></Events>
+            <div className='vn-events-home'>
+                <Events></Events>
+            </div>
         </div>
     );
 };
