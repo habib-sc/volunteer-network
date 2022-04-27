@@ -1,0 +1,14 @@
+.vn-hero-section{
+    background-image: url('../../../../assets/images/vn-hero.jpg');
+    height: 100%;
+    background-blend-mode: color;
+    background-color: rgba(255, 255, 255, 0.685)
+}
+.vn-search-bar{
+    border-bottom-left-radius: 18px !important;
+    border-top-left-radius: 18px !important;
+}
+.vn-search-btn{
+    border-bottom-right-radius: 18px !important;
+    border-top-right-radius:  18px !important;
+}
