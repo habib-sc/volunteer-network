@@ -1,0 +1,10 @@
+.volunteer-list-wrapper{
+    width: 100%;
+    background-color: rgb(229, 238, 250);
+    min-height: 90vh;
+}
+.volunteer-list-container{
+    width: 95%;
+    background-color: white;
+    border-radius: 15px;
+}

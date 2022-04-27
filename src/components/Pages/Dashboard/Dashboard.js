@@ -7,9 +7,9 @@ import './Dashboard.css';
 
 const Dashboard = () => {
     return (
-       <div className='container'>
+       <div className='mx-3'>
             <Row className='justify-content-between'>
-                <Col md={3} className='dashboard-left'>
+                <Col md={2} className='dashboard-left'>
                     <div className='d-flex flex-column mt-3'>
                         <Link to='/dashboard/volunteers' className='text-decoration-none d-flex align-items-center my-1 text-black '>
                             <img src={usersIcon} style={{height: '25px', marginRight: '5px'}} alt="" />                          
@@ -22,7 +22,7 @@ const Dashboard = () => {
                     </div>
                 </Col>
 
-                <Col md={9} className='dashboard-right'>
+                <Col md={10} className='dashboard-right'>
                     <div className='mt-3'>
                         <Outlet></Outlet>
                     </div>
