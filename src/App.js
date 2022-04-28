@@ -1,4 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import AddEvent from './components/Pages/AddEvent/AddEvent';
 import Dashboard from './components/Pages/Dashboard/Dashboard';
@@ -22,6 +24,7 @@ function App() {
         </Route>
         <Route path='/events' element={<EventsPage></EventsPage>}></Route>
       </Routes>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

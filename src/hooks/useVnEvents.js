@@ -6,7 +6,7 @@ const useVnEvents = () => {
     
     useEffect( () => {
         (async () => {
-            const { data } = await axios.get('http://localhost:5000/events')
+            const { data } = await axios.get('http://localhost:5000/events');
             setVnEvents(data);
         })();
     }, []);
